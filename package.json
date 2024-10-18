@@ -1,0 +1,25 @@
+{
+  "name": "locapic-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.5",
+    "eas": "^0.1.0",
+    "eas-cli": "^12.5.3",
+    "express": "~4.16.1",
+    "mongoose": "^8.7.2",
+    "morgan": "~1.9.1",
+    "node-fetch": "2",
+    "update": "^0.7.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "supertest": "^6.2.3"
+  }
+}
